@@ -12,6 +12,7 @@
     border: 0.5px solid rgb(230, 221, 221);
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .btn2{
     width: 90px;
@@ -20,6 +21,7 @@
     background-color: rgb(222, 222, 241);
     border: none;
     font-weight: bold;
+    cursor: pointer;
 }
 .btn3{
     width: 100px;
@@ -29,6 +31,7 @@
     color: black;
     border-radius: 25px;
     font-weight: bold;
+    cursor: pointer;
 }
 .btn1 img{
     width: 20px;
@@ -39,20 +42,23 @@ nav{
    align-items: center;
     margin-top: 15px;
     margin-bottom: 10px;
+    
 }
 .dash{
     height: 30px;
+    cursor: pointer;
 }
 .logo{
     width: 150px;
+    cursor: pointer;
 }
-.search button{
+.search{
 width: 500px;
-height: 40px;
-justify-content: center;
-align-items: center;
-border-radius: 10px;
-border: 1px solid;
+height: 35px;
+/* justify-content: center;
+align-items: center; */
+border-radius: 8px;
+border: 0.5px light grey;
 background-color: transparent;
 }
 .left-side{
@@ -66,11 +72,15 @@ background-color: transparent;
     margin-top: 15px;
     display: flex;
     gap: 5px;
+    margin-bottom: 15px;
 }
 .lil-btn button{
     border-radius: 5px;
     height: 30px;
     border: none;
+}
+.lil-btn button{
+    cursor: pointer;
 }
 .t1{
     background-color: black;
@@ -144,4 +154,8 @@ background-color: transparent;
     color: rgb(88, 87, 87);
     font-weight: bold;
     background-color:rgb(222, 222, 241);
+}
+.picture{
+    width: 400px;
+    height: 250px;
 }
