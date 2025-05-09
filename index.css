@@ -87,11 +87,13 @@ background-color: transparent;
     color: white;
     font-weight: bold;
     border: none;
+    font-size: larger;
 }
 .t2{
     background-color: rgb(222, 222, 241);
     color: rgb(88, 87, 87);
     font-weight: bold;
+    font-size: larger;
 }
 .t3{
     background-color:rgb(222, 222, 241);
@@ -156,17 +158,31 @@ background-color: transparent;
     background-color:rgb(222, 222, 241);
 }
 .alone-pic{
-    width: 500px;
-    height: 350px;
+    width: 650px;
+    height: 450px;
     border-radius: 5px;
 }
 .lonely{
    margin-top: 15px;
 }
-/* .dived{
-    margin-top: 0px;
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
     
-} */
+}
+.small{
+    
+    align-items: center;
+    display: flex;
+    
+    
+    
+    
+    
+}
+
 .small-pp{
     width: 30px;
     height: 30px;
@@ -177,6 +193,8 @@ background-color: transparent;
     width: 250px;
     height: 150px;
     border-radius: 8px;
+    
+    
 }
 .pp-word{
     display: flex;
@@ -203,39 +221,52 @@ background-color: transparent;
 .btn:hover{
     background-color: green;
 }
-.btn-div{
-    margin-bottom: 8px;
-    margin-left: 750px;
-}
+
+
 .pp-text{
     font-weight: bold;
+    
+    
 }
 .pp-img{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    object-fit: cover;
-}
-.small{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin-bottom: 200px;
-    /* margin: 1px 0 0 1px; */
+    object-fit: cover; 
     
 }
-.pp{
-    /* display: flex;
-    flex-direction: column; */
-    
+.btn-div{
+    position: absolute;
+    left: 1250px;
+    bottom: 350px;
 }
-.main{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    
+.sub-section{
+    position: absolute;
+    left: 670px;
+    bottom: 25px;
 }
-.everysmall{
-    /* margin: 1px 0 0 1px; */
+.two-button{
+    width: 80px;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.5px solid green;
+    font-size: 15px;
+    margin-left: 1250px;
+}
+.two-button:hover{
+    background-color: green;
+}
+.pick-img{
+    width: 350px;
+    height: 180px;
+    border-radius: 16px;
+}
+.pick-text{
+    font-weight: bolder;
+    font-size: large;
+}
 
-}
+
+
